@@ -1,10 +1,12 @@
 {
   "name": "electroneumjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electroneum RPC made easy. Explore the blockchain, send transactions and much more.",
   "main": "dist/index.js",
   "keywords": [
-    "cryptocurrency", "rpc", "http"
+    "cryptocurrency",
+    "rpc",
+    "http"
   ],
   "scripts": {
     "build": "babel src --out-dir dist",

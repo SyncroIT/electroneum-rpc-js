@@ -1,15 +1,22 @@
 {
   "name": "electroneumjs",
   "version": "1.0.0",
-  "description": "A NodeJS package to manage transactions in Electroneum",
+  "description": "Electroneum RPC made easy. Explore the blockchain, send transactions and much more.",
   "main": "dist/index.js",
+  "keywords": [
+    "cryptocurrency", "rpc", "http"
+  ],
   "scripts": {
     "build": "babel src --out-dir dist",
     "watch": "babel src --out-dir dist --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "SyncroIT",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SyncroIT/electroneum-rpc-js.git"
+  },
+  "author": "Pavlo Kochylo",
+  "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.17.1"
   },
